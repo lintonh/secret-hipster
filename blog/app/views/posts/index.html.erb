@@ -1,0 +1,53 @@
+<!-- <h1>Listing posts</h1>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Body</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @posts.each do |post| %>
+      <tr>
+        <td style="color:blue"><%= post.title %></td>
+        <td style="color:red"><%= post.body %></td>
+        <td><%= link_to 'Show', post %></td>
+        <td><%= link_to 'Edit', edit_post_path(post) %></td>
+        <td><%= link_to 'ELIMINATE', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Post', new_post_path %> -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="avatar">
+        User Avatar
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        Education
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        Classrooms
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        Games
+      </div>
+    </div>
+  </div>
+</div>

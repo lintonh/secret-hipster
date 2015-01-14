@@ -1,0 +1,31 @@
+body {
+	background:blue
+}
+
+.hero {
+	height: 480px;
+	padding-top: 150px;
+	background:#12A5F4;
+}
+
+
+.hero h1, .hero h2 {
+	text-align: center;
+	color: #fff;
+}
+
+.btn{
+	margin: auto;
+	display:block;
+}
+
+.main{
+	color: #12A5F4;
+}
+
+.home-btns{
+	.btn{
+	display: table;
+	margin: 0 auto;
+	}
+}
